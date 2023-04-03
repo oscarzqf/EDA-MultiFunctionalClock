@@ -1,0 +1,589 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a35tftg256-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11104 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 431.695 ; gain = 100.734
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'timecreator' [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/timecreator.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'timecreator' (1#1) [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/timecreator.v:23]
+WARNING: [Synth 8-350] instance 'tc' of module 'timecreator' requires 7 connections, but only 6 given [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/top.v:47]
+INFO: [Synth 8-6157] synthesizing module 'cntcontrol' [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cntcontrol.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ajxd' [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/ajxd.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'ajxd' (2#1) [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/ajxd.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cntcontrol' (3#1) [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cntcontrol.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ledrun' [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/ledrun.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ledrun' (4#1) [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/ledrun.v:23]
+INFO: [Synth 8-6157] synthesizing module 'cntmaker' [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cntmaker.v:23]
+INFO: [Synth 8-6157] synthesizing module 'cnt1' [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt1.v:23]
+WARNING: [Synth 8-567] referenced signal 'mode' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt1.v:36]
+WARNING: [Synth 8-567] referenced signal 'cnttemp2' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt1.v:44]
+WARNING: [Synth 8-567] referenced signal 'cnttemp3' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt1.v:44]
+WARNING: [Synth 8-567] referenced signal 'cnttemp1' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt1.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'cnt1' (5#1) [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt1.v:23]
+INFO: [Synth 8-6157] synthesizing module 'cnt2' [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt2.v:23]
+WARNING: [Synth 8-567] referenced signal 'mode' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt2.v:36]
+WARNING: [Synth 8-567] referenced signal 'cnttemp2' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt2.v:44]
+WARNING: [Synth 8-567] referenced signal 'cnttemp3' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt2.v:44]
+WARNING: [Synth 8-567] referenced signal 'cnttemp1' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt2.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'cnt2' (6#1) [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt2.v:23]
+INFO: [Synth 8-6157] synthesizing module 'cnt3' [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt3.v:23]
+WARNING: [Synth 8-567] referenced signal 'mode' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt3.v:36]
+WARNING: [Synth 8-567] referenced signal 'cnttemp2' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt3.v:44]
+WARNING: [Synth 8-567] referenced signal 'cnttemp3' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt3.v:44]
+WARNING: [Synth 8-567] referenced signal 'cnttemp1' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt3.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'cnt3' (7#1) [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt3.v:23]
+INFO: [Synth 8-6157] synthesizing module 'cnt4' [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt4.v:23]
+WARNING: [Synth 8-567] referenced signal 'mode' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt4.v:36]
+WARNING: [Synth 8-567] referenced signal 'cnttemp2' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt4.v:44]
+WARNING: [Synth 8-567] referenced signal 'cnttemp3' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt4.v:44]
+WARNING: [Synth 8-567] referenced signal 'cnttemp1' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt4.v:44]
+INFO: [Synth 8-6155] done synthesizing module 'cnt4' (8#1) [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt4.v:23]
+INFO: [Synth 8-6157] synthesizing module 'cnt5' [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt5.v:23]
+WARNING: [Synth 8-567] referenced signal 'mode' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt5.v:37]
+WARNING: [Synth 8-567] referenced signal 'cnttemp2' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt5.v:45]
+WARNING: [Synth 8-567] referenced signal 'cnttemp3' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt5.v:45]
+WARNING: [Synth 8-567] referenced signal 'cnttemp1' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt5.v:45]
+INFO: [Synth 8-6155] done synthesizing module 'cnt5' (9#1) [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt5.v:23]
+INFO: [Synth 8-6157] synthesizing module 'cnt6' [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt6.v:23]
+WARNING: [Synth 8-567] referenced signal 'mode' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt6.v:36]
+WARNING: [Synth 8-567] referenced signal 'cnttemp2' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt6.v:44]
+WARNING: [Synth 8-567] referenced signal 'cnttemp3' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt6.v:44]
+WARNING: [Synth 8-567] referenced signal 'cnttemp1' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt6.v:44]
+WARNING: [Synth 8-5788] Register upper2_reg in module cnt6 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt6.v:99]
+INFO: [Synth 8-6155] done synthesizing module 'cnt6' (10#1) [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cnt6.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'cntmaker' (11#1) [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/cntmaker.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clocktriger' [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/clocktriger.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clocktriger' (12#1) [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/clocktriger.v:23]
+INFO: [Synth 8-6157] synthesizing module 'buzz' [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/buzz.v:23]
+	Parameter MIN_DO bound to: 18'b101110100101010000 
+	Parameter MIN_RE bound to: 18'b101001100001000010 
+	Parameter MIN_MI bound to: 18'b100100111111001100 
+	Parameter MIN_FA bound to: 18'b100010111110010010 
+	Parameter MIN_SO bound to: 18'b011111001000111110 
+	Parameter MIN_LA bound to: 18'b011011101111000000 
+	Parameter MIN_XI bound to: 18'b011000101101010000 
+	Parameter MID_DO bound to: 17'b10111010101110000 
+	Parameter MID_RE bound to: 17'b10100110010011110 
+	Parameter MID_MI bound to: 17'b10010100001001010 
+	Parameter MID_FA bound to: 17'b10001011110110000 
+	Parameter MID_SO bound to: 17'b01111100100000110 
+	Parameter MID_LA bound to: 17'b01101110111100000 
+	Parameter MID_XI bound to: 17'b01100010110101000 
+	Parameter MAX_DO bound to: 16'b1011101010001011 
+	Parameter MAX_RE bound to: 16'b1010011000111001 
+	Parameter MAX_MI bound to: 16'b1001010000010011 
+	Parameter MAX_FA bound to: 16'b1000101111001110 
+	Parameter MAX_SO bound to: 16'b0111110010001111 
+	Parameter MAX_LA bound to: 16'b0110111011111001 
+	Parameter MAX_XI bound to: 16'b0110001101001011 
+	Parameter TIME_300ms bound to: 24'b111001001110000110111111 
+	Parameter TIME_500ms bound to: 25'b1011111010111100000111111 
+INFO: [Synth 8-226] default block is never used [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/buzz.v:78]
+INFO: [Synth 8-6155] done synthesizing module 'buzz' (13#1) [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/buzz.v:23]
+INFO: [Synth 8-6157] synthesizing module 'save' [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/save.v:23]
+INFO: [Synth 8-226] default block is never used [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/save.v:54]
+INFO: [Synth 8-226] default block is never used [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/save.v:69]
+INFO: [Synth 8-6155] done synthesizing module 'save' (14#1) [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/save.v:23]
+INFO: [Synth 8-6157] synthesizing module 'segmaker' [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/segmaker.v:23]
+WARNING: [Synth 8-567] referenced signal 'cnt1' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/segmaker.v:38]
+WARNING: [Synth 8-567] referenced signal 'cnt2' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/segmaker.v:38]
+WARNING: [Synth 8-567] referenced signal 'cnt3' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/segmaker.v:38]
+WARNING: [Synth 8-567] referenced signal 'cnt4' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/segmaker.v:38]
+WARNING: [Synth 8-567] referenced signal 'cnt5' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/segmaker.v:38]
+WARNING: [Synth 8-567] referenced signal 'cnt6' should be on the sensitivity list [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/segmaker.v:38]
+INFO: [Synth 8-6155] done synthesizing module 'segmaker' (15#1) [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/segmaker.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'top' (16#1) [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/top.v:23]
+WARNING: [Synth 8-3331] design cntmaker has unconnected port btnout[3]
+WARNING: [Synth 8-3331] design cntmaker has unconnected port btnout[2]
+WARNING: [Synth 8-3331] design timecreator has unconnected port rst_s
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 487.504 ; gain = 156.543
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 487.504 ; gain = 156.543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 487.504 ; gain = 156.543
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tftg256-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [F:/vivado/digitalclockreal/digitalclockreal.srcs/constrs_1/new/top.xdc]
+Finished Parsing XDC File [F:/vivado/digitalclockreal/digitalclockreal.srcs/constrs_1/new/top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [F:/vivado/digitalclockreal/digitalclockreal.srcs/constrs_1/new/top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 820.715 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 820.715 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 820.715 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 820.715 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 820.715 ; gain = 489.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tftg256-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 820.715 ; gain = 489.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 820.715 ; gain = 489.754
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "temp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "temp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_20ms" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_20ms" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "upper1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "upper2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "upper1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cnttemp3" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "upper2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "upper2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "upper1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cnttemp3" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "upper2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "upper2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "upper1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cnttemp3" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "upper2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "upper2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "upper1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cnttemp3" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "upper2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "upper2" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cnttemp3" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "cnt" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'dig_reg' [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/segmaker.v:43]
+WARNING: [Synth 8-327] inferring latch for variable 'seg_reg' [F:/vivado/digitalclockreal/digitalclockreal.srcs/sources_1/new/segmaker.v:45]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 820.715 ; gain = 489.754
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input     20 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 18    
+	   2 Input      3 Bit       Adders := 4     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               24 Bit    Registers := 10    
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 22    
+	                3 Bit    Registers := 4     
+	                1 Bit    Registers := 20    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+	   2 Input     20 Bit        Muxes := 1     
+	   7 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 44    
+	   3 Input      4 Bit        Muxes := 8     
+	   2 Input      3 Bit        Muxes := 7     
+	   2 Input      1 Bit        Muxes := 97    
+	   3 Input      1 Bit        Muxes := 12    
+	   9 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 8     
+	   7 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 6     
+Module timecreator 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 5     
+Module ajxd 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     20 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     20 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+Module cntcontrol 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+Module cnt1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 6     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 16    
+	   3 Input      1 Bit        Muxes := 2     
+Module cnt2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 6     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+	   3 Input      1 Bit        Muxes := 2     
+Module cnt3 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 6     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+	   3 Input      1 Bit        Muxes := 2     
+Module cnt4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 6     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 14    
+	   3 Input      1 Bit        Muxes := 2     
+Module cnt5 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 8     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 15    
+	   3 Input      1 Bit        Muxes := 1     
+Module cnt6 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 6     
+	   3 Input      4 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 11    
+	   3 Input      1 Bit        Muxes := 3     
+Module cntmaker 
+Detailed RTL Component Info : 
++---Registers : 
+	                6 Bit    Registers := 1     
+Module clocktriger 
+Detailed RTL Component Info : 
++---Registers : 
+	               24 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+Module buzz 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 1     
+Module save 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	               24 Bit    Registers := 9     
+	                3 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 4     
+	   8 Input      1 Bit        Muxes := 8     
+Module segmaker 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   7 Input      6 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "ajxd1/temp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "ajxd1/temp" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "ajxd1/clk_20ms" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "ajxd1/clk_20ms" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "cnt" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+WARNING: [Synth 8-3331] design cntmaker has unconnected port btnout[3]
+WARNING: [Synth 8-3331] design cntmaker has unconnected port btnout[2]
+WARNING: [Synth 8-3331] design timecreator has unconnected port rst_s
+INFO: [Synth 8-3886] merging instance 'c1/ajxd1/temp_reg[30]' (FDRE) to 'c1/ajxd1/temp_reg[31]'
+INFO: [Synth 8-3886] merging instance 'c1/ajxd1/temp_reg[31]' (FDRE) to 'c1/ajxd1/temp_reg[29]'
+INFO: [Synth 8-3886] merging instance 'c1/ajxd1/temp_reg[29]' (FDRE) to 'c1/ajxd1/temp_reg[28]'
+INFO: [Synth 8-3886] merging instance 'c1/ajxd1/temp_reg[28]' (FDRE) to 'c1/ajxd1/temp_reg[27]'
+INFO: [Synth 8-3886] merging instance 'c1/ajxd1/temp_reg[27]' (FDRE) to 'c1/ajxd1/temp_reg[26]'
+INFO: [Synth 8-3886] merging instance 'c1/ajxd1/temp_reg[26]' (FDRE) to 'c1/ajxd1/temp_reg[25]'
+INFO: [Synth 8-3886] merging instance 'c1/ajxd1/temp_reg[25]' (FDRE) to 'c1/ajxd1/temp_reg[24]'
+INFO: [Synth 8-3886] merging instance 'c1/ajxd1/temp_reg[24]' (FDRE) to 'c1/ajxd1/temp_reg[23]'
+INFO: [Synth 8-3886] merging instance 'c1/ajxd1/temp_reg[23]' (FDRE) to 'c1/ajxd1/temp_reg[22]'
+INFO: [Synth 8-3886] merging instance 'c1/ajxd1/temp_reg[22]' (FDRE) to 'c1/ajxd1/temp_reg[21]'
+INFO: [Synth 8-3886] merging instance 'c1/ajxd1/temp_reg[21]' (FDRE) to 'c1/ajxd1/temp_reg[20]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\c1/ajxd1/temp_reg[20] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 820.715 ; gain = 489.754
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 820.715 ; gain = 489.754
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 820.715 ; gain = 489.754
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 850.273 ; gain = 519.312
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 850.273 ; gain = 519.312
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 850.273 ; gain = 519.312
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 850.273 ; gain = 519.312
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 850.273 ; gain = 519.312
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 850.273 ; gain = 519.312
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 850.273 ; gain = 519.312
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    36|
+|3     |LUT1   |    19|
+|4     |LUT2   |    53|
+|5     |LUT3   |    25|
+|6     |LUT4   |    53|
+|7     |LUT5   |    78|
+|8     |LUT6   |   235|
+|9     |MUXF7  |    46|
+|10    |FDCE   |    91|
+|11    |FDPE   |     6|
+|12    |FDRE   |   396|
+|13    |LD     |    14|
+|14    |IBUF   |     8|
+|15    |OBUF   |    26|
++------+-------+------+
+
+Report Instance Areas: 
++------+----------+------------+------+
+|      |Instance  |Module      |Cells |
++------+----------+------------+------+
+|1     |top       |            |  1088|
+|2     |  b1      |buzz        |   131|
+|3     |  c1      |cntcontrol  |   207|
+|4     |    ajxd1 |ajxd        |    72|
+|5     |  cm1     |cntmaker    |   216|
+|6     |    cnt1  |cnt1        |    35|
+|7     |    cnt2  |cnt2        |    34|
+|8     |    cnt3  |cnt3        |    35|
+|9     |    cnt4  |cnt4        |    33|
+|10    |    cnt5  |cnt5        |    39|
+|11    |    cnt6  |cnt6        |    34|
+|12    |  ct1     |clocktriger |    27|
+|13    |  s1      |save        |   306|
+|14    |  sm1     |segmaker    |    29|
+|15    |  tc      |timecreator |   136|
++------+----------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 850.273 ; gain = 519.312
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 850.273 ; gain = 186.102
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 850.273 ; gain = 519.312
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 96 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 850.273 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 14 instances were transformed.
+  LD => LDCE: 14 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+88 Infos, 40 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 850.273 ; gain = 532.320
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 850.273 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'F:/vivado/digitalclockreal/digitalclockreal.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Dec  4 08:53:36 2022...

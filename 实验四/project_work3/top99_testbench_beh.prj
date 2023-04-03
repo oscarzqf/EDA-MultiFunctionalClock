@@ -1,0 +1,4 @@
+verilog work "counter10.v"
+verilog work "top99.v"
+verilog work "top99_testbench.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

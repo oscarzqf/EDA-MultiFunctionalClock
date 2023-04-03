@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Feb 06 14:58:51 2003
+# Process ID: 5016
+# Log file: C:/2020020910019/projec_work2/planAhead_run_4/planAhead.log
+# Journal file: C:/2020020910019/projec_work2/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/2020020910019/projec_work2/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS33 [get_ports [list {key0[3]} {key0[2]} {key0[1]} {key0[0]}]]
+save_constraints

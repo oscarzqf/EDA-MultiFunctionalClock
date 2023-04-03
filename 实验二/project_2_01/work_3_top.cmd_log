@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "C:/2020020910019/project_2_01/work_3_top.xst" -ofn "C:/2020020910019/project_2_01/work_3_top.syr" 
+xst -intstyle ise -ifn "C:/2020020910019/project_2_01/work_3_top.xst" -ofn "C:/2020020910019/project_2_01/work_3_top.syr" 
+xst -intstyle ise -ifn "C:/2020020910019/project_2_01/work_3_top.xst" -ofn "C:/2020020910019/project_2_01/work_3_top.syr" 
+xst -intstyle ise -ifn "C:/2020020910019/project_2_01/work_3_top.xst" -ofn "C:/2020020910019/project_2_01/work_3_top.syr" 
+xst -intstyle ise -ifn "C:/2020020910019/project_2_01/work_3_top.xst" -ofn "C:/2020020910019/project_2_01/work_3_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpq_led8.ucf -p xc3s100e-cp132-5 work_3_top.ngc work_3_top.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o work_3_top_map.ncd work_3_top.ngd work_3_top.pcf 
+par -w -intstyle ise -ol high -t 1 work_3_top_map.ncd work_3_top.ncd work_3_top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml work_3_top.twx work_3_top.ncd -o work_3_top.twr work_3_top.pcf -ucf fpq_led8.ucf 
+bitgen -intstyle ise -f work_3_top.ut work_3_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpq_led8.ucf -p xc3s100e-cp132-5 work_3_top.ngc work_3_top.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o work_3_top_map.ncd work_3_top.ngd work_3_top.pcf 
+par -w -intstyle ise -ol high -t 1 work_3_top_map.ncd work_3_top.ncd work_3_top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml work_3_top.twx work_3_top.ncd -o work_3_top.twr work_3_top.pcf -ucf fpq_led8.ucf 
+bitgen -intstyle ise -f work_3_top.ut work_3_top.ncd 
+xst -intstyle ise -ifn "C:/2020020910019/project_2_01/work_3_top.xst" -ofn "C:/2020020910019/project_2_01/work_3_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpq_led8.ucf -p xc3s100e-cp132-5 work_3_top.ngc work_3_top.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o work_3_top_map.ncd work_3_top.ngd work_3_top.pcf 
+par -w -intstyle ise -ol high -t 1 work_3_top_map.ncd work_3_top.ncd work_3_top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml work_3_top.twx work_3_top.ncd -o work_3_top.twr work_3_top.pcf -ucf fpq_led8.ucf 
+bitgen -intstyle ise -f work_3_top.ut work_3_top.ncd 
+xst -intstyle ise -ifn "C:/2020020910019/project_2_01/work_3_top.xst" -ofn "C:/2020020910019/project_2_01/work_3_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpq_led8.ucf -p xc3s100e-cp132-5 work_3_top.ngc work_3_top.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o work_3_top_map.ncd work_3_top.ngd work_3_top.pcf 
+par -w -intstyle ise -ol high -t 1 work_3_top_map.ncd work_3_top.ncd work_3_top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml work_3_top.twx work_3_top.ncd -o work_3_top.twr work_3_top.pcf -ucf fpq_led8.ucf 
+bitgen -intstyle ise -f work_3_top.ut work_3_top.ncd 
+xst -intstyle ise -ifn "C:/2020020910019/project_2_01/work_3_top.xst" -ofn "C:/2020020910019/project_2_01/work_3_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpq_led8.ucf -p xc3s100e-cp132-5 work_3_top.ngc work_3_top.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o work_3_top_map.ncd work_3_top.ngd work_3_top.pcf 
+par -w -intstyle ise -ol high -t 1 work_3_top_map.ncd work_3_top.ncd work_3_top.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml work_3_top.twx work_3_top.ncd -o work_3_top.twr work_3_top.pcf -ucf fpq_led8.ucf 
+bitgen -intstyle ise -f work_3_top.ut work_3_top.ncd 

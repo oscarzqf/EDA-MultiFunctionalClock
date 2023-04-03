@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat Nov 26 21:36:59 2022
+# Process ID: 4676
+# Log file: E:/2020020910019/project_5/planAhead_run_1/planAhead.log
+# Journal file: E:/2020020910019/project_5/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/2020020910019/project_5/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS33 [get_ports [list clk_50mhz]]
+set_property iostandard LVCMOS33 [get_ports [list dio]]
+set_property iostandard LVCMOS33 [get_ports [list en]]
+set_property iostandard LVCMOS33 [get_ports [list rclk]]
+set_property iostandard LVCMOS33 [get_ports [list rst]]
+set_property iostandard LVCMOS33 [get_ports [list sclk]]
+startgroup
+set_property package_pin B8 [get_ports clk_50mhz]
+endgroup
+startgroup
+set_property package_pin C9 [get_ports dio]
+endgroup
+startgroup
+set_property package_pin A7 [get_ports en]
+endgroup
+startgroup
+set_property package_pin M4 [get_ports rclk]
+endgroup
+set_property package_pin "" [get_ports [list  rst]]
+startgroup
+set_property package_pin A10 [get_ports rclk]
+endgroup
+startgroup
+set_property package_pin M4 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin B9 [get_ports sclk]
+endgroup
+save_constraints

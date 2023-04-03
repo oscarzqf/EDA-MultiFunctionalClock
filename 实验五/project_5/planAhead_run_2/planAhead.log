@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat Nov 26 21:37:05 2022
+# Process ID: 8040
+# Log file: E:/2020020910019/project_5/planAhead_run_2/planAhead.log
+# Journal file: E:/2020020910019/project_5/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from F:/xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [F:/xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [F:/xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source E:/2020020910019/project_5/pa.fromHdl.tcl
+# create_project -name project_5 -dir "E:/2020020910019/project_5/planAhead_run_2" -part xc3s100ecp132-5
+ERROR: [Common 17-53] User Exception: Project already exists on disk, please use '-force' option to overwrite: 
+     E:/2020020910019/project_5/planAhead_run_2/project_5.ppr
+     E:/2020020910019/project_5/planAhead_run_2/project_5.data
+
+    while executing
+"create_project -name project_5 -dir "E:/2020020910019/project_5/planAhead_run_2" -part xc3s100ecp132-5"
+    (file "E:/2020020910019/project_5/pa.fromHdl.tcl" line 4)
+exit
+INFO: [Common 17-206] Exiting PlanAhead at Sat Nov 26 21:42:00 2022...
+INFO: [Common 17-83] Releasing license: PlanAhead

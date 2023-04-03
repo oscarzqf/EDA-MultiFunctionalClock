@@ -1,0 +1,60 @@
+xst -intstyle ise -ifn "C:/2020020910019/projec_work2/work_2.xst" -ofn "C:/2020020910019/projec_work2/work_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc work_2.ucf -p xc3s100e-cp132-5 work_2.ngc work_2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o work_2_map.ncd work_2.ngd work_2.pcf 
+par -w -intstyle ise -ol high -t 1 work_2_map.ncd work_2.ncd work_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml work_2.twx work_2.ncd -o work_2.twr work_2.pcf -ucf work_2.ucf 
+bitgen -intstyle ise -f work_2.ut work_2.ncd 
+xst -intstyle ise -ifn "C:/2020020910019/projec_work2/work_2.xst" -ofn "C:/2020020910019/projec_work2/work_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc work_2.ucf -p xc3s100e-cp132-5 work_2.ngc work_2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o work_2_map.ncd work_2.ngd work_2.pcf 
+par -w -intstyle ise -ol high -t 1 work_2_map.ncd work_2.ncd work_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml work_2.twx work_2.ncd -o work_2.twr work_2.pcf -ucf work_2.ucf 
+bitgen -intstyle ise -f work_2.ut work_2.ncd 
+xst -intstyle ise -ifn "C:/2020020910019/projec_work2/work_2.xst" -ofn "C:/2020020910019/projec_work2/work_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc work_2.ucf -p xc3s100e-cp132-5 work_2.ngc work_2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o work_2_map.ncd work_2.ngd work_2.pcf 
+par -w -intstyle ise -ol high -t 1 work_2_map.ncd work_2.ncd work_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml work_2.twx work_2.ncd -o work_2.twr work_2.pcf -ucf work_2.ucf 
+bitgen -intstyle ise -f work_2.ut work_2.ncd 
+xst -intstyle ise -ifn "C:/2020020910019/projec_work2/work_2.xst" -ofn "C:/2020020910019/projec_work2/work_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc work_2.ucf -p xc3s100e-cp132-5 work_2.ngc work_2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o work_2_map.ncd work_2.ngd work_2.pcf 
+par -w -intstyle ise -ol high -t 1 work_2_map.ncd work_2.ncd work_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml work_2.twx work_2.ncd -o work_2.twr work_2.pcf -ucf work_2.ucf 
+bitgen -intstyle ise -f work_2.ut work_2.ncd 
+xst -intstyle ise -ifn "C:/2020020910019/projec_work2/work_2.xst" -ofn "C:/2020020910019/projec_work2/work_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc work_2.ucf -p xc3s100e-cp132-5 work_2.ngc work_2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o work_2_map.ncd work_2.ngd work_2.pcf 
+par -w -intstyle ise -ol high -t 1 work_2_map.ncd work_2.ncd work_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml work_2.twx work_2.ncd -o work_2.twr work_2.pcf -ucf work_2.ucf 
+bitgen -intstyle ise -f work_2.ut work_2.ncd 
+xst -intstyle ise -ifn "C:/2020020910019/projec_work2/work_2.xst" -ofn "C:/2020020910019/projec_work2/work_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc work_2.ucf -p xc3s100e-cp132-5 work_2.ngc work_2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o work_2_map.ncd work_2.ngd work_2.pcf 
+par -w -intstyle ise -ol high -t 1 work_2_map.ncd work_2.ncd work_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml work_2.twx work_2.ncd -o work_2.twr work_2.pcf -ucf work_2.ucf 
+xst -intstyle ise -ifn "C:/2020020910019/projec_work2/work_2.xst" -ofn "C:/2020020910019/projec_work2/work_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc work_2.ucf -p xc3s100e-cp132-5 work_2.ngc work_2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o work_2_map.ncd work_2.ngd work_2.pcf 
+par -w -intstyle ise -ol high -t 1 work_2_map.ncd work_2.ncd work_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml work_2.twx work_2.ncd -o work_2.twr work_2.pcf -ucf work_2.ucf 
+bitgen -intstyle ise -f work_2.ut work_2.ncd 
+xst -intstyle ise -ifn "C:/2020020910019/projec_work2/work_2.xst" -ofn "C:/2020020910019/projec_work2/work_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc work_2.ucf -p xc3s100e-cp132-5 work_2.ngc work_2.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc work_2.ucf -p xc3s100e-cp132-5 work_2.ngc work_2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o work_2_map.ncd work_2.ngd work_2.pcf 
+par -w -intstyle ise -ol high -t 1 work_2_map.ncd work_2.ncd work_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml work_2.twx work_2.ncd -o work_2.twr work_2.pcf -ucf work_2.ucf 
+bitgen -intstyle ise -f work_2.ut work_2.ncd 
+xst -intstyle ise -ifn "C:/2020020910019/projec_work2/work_2.xst" -ofn "C:/2020020910019/projec_work2/work_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc work_2.ucf -p xc3s100e-cp132-5 work_2.ngc work_2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o work_2_map.ncd work_2.ngd work_2.pcf 
+par -w -intstyle ise -ol high -t 1 work_2_map.ncd work_2.ncd work_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml work_2.twx work_2.ncd -o work_2.twr work_2.pcf -ucf work_2.ucf 
+bitgen -intstyle ise -f work_2.ut work_2.ncd 
+xst -intstyle ise -ifn "C:/2020020910019/projec_work2/work_2.xst" -ofn "C:/2020020910019/projec_work2/work_2.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc work_2.ucf -p xc3s100e-cp132-5 work_2.ngc work_2.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o work_2_map.ncd work_2.ngd work_2.pcf 
+par -w -intstyle ise -ol high -t 1 work_2_map.ncd work_2.ncd work_2.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml work_2.twx work_2.ncd -o work_2.twr work_2.pcf -ucf work_2.ucf 
+bitgen -intstyle ise -f work_2.ut work_2.ncd 

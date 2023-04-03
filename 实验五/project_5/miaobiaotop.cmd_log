@@ -1,0 +1,233 @@
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 
+xst -intstyle ise -ifn "E:/2020020910019/project_5/miaobiaotop.xst" -ofn "E:/2020020910019/project_5/miaobiaotop.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc miaobiaotop.ucf -p xc3s100e-cp132-5 miaobiaotop.ngc miaobiaotop.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o miaobiaotop_map.ncd miaobiaotop.ngd miaobiaotop.pcf 
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd miaobiaotop.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml miaobiaotop.twx miaobiaotop.ncd -o miaobiaotop.twr miaobiaotop.pcf -ucf miaobiaotop.ucf 
+bitgen -intstyle ise -f miaobiaotop.ut miaobiaotop.ncd 

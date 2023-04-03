@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Nov 27 16:20:07 2022
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "dio" LOCATE = SITE "C9" LEVEL 1;
+COMP "clk_50mhz" LOCATE = SITE "B8" LEVEL 1;
+COMP "btn0" LOCATE = SITE "A7" LEVEL 1;
+COMP "rclk" LOCATE = SITE "A10" LEVEL 1;
+COMP "sclk" LOCATE = SITE "B9" LEVEL 1;
+COMP "switch0" LOCATE = SITE "N3" LEVEL 1;
+COMP "switch1" LOCATE = SITE "E2" LEVEL 1;
+COMP "switch2" LOCATE = SITE "F3" LEVEL 1;
+NET "clk_50mhz_BUFGP/IBUFG" BEL "clk_50mhz_BUFGP/BUFG.GCLKMUX"
+        USELOCALCONNECT;
+SCHEMATIC END;
+

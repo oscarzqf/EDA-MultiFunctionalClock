@@ -1,0 +1,33 @@
+Running: F:\xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o E:/2020020910019/project_5/miaobiao_testbench_isim_beh.exe -prj E:/2020020910019/project_5/miaobiao_testbench_beh.prj work.miaobiao_testbench work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/2020020910019/project_5/xiaodou.v" into library work
+Analyzing Verilog file "E:/2020020910019/project_5/leddisplaynew.v" into library work
+Analyzing Verilog file "E:/2020020910019/project_5/div1mhz.v" into library work
+Analyzing Verilog file "E:/2020020910019/project_5/div1khz.v" into library work
+Analyzing Verilog file "E:/2020020910019/project_5/div100hz.v" into library work
+Analyzing Verilog file "E:/2020020910019/project_5/counter6.v" into library work
+Analyzing Verilog file "E:/2020020910019/project_5/counter10.v" into library work
+Analyzing Verilog file "E:/2020020910019/project_5/miaobiaotop.v" into library work
+Analyzing Verilog file "E:/2020020910019/project_5/miaobiao_testbench.v" into library work
+Analyzing Verilog file "F:/xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module div100hz
+Compiling module div1mhz
+Compiling module div1khz
+Compiling module counter10
+Compiling module counter6
+Compiling module xiaodou
+Compiling module leddisplaynew
+Compiling module miaobiaotop
+Compiling module miaobiao_testbench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 7 sub-compilation(s) to finish...
+Compiled 10 Verilog Units
+Built simulation executable E:/2020020910019/project_5/miaobiao_testbench_isim_beh.exe
+Fuse Memory Usage: 29136 KB
+Fuse CPU Usage: 374 ms

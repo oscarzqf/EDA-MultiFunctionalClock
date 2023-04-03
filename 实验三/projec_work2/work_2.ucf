@@ -1,0 +1,42 @@
+
+
+NET "seg[6]" IOSTANDARD = LVCMOS33;
+NET "seg[5]" IOSTANDARD = LVCMOS33;
+NET "seg[4]" IOSTANDARD = LVCMOS33;
+NET "seg[3]" IOSTANDARD = LVCMOS33;
+NET "seg[2]" IOSTANDARD = LVCMOS33;
+NET "seg[1]" IOSTANDARD = LVCMOS33;
+NET "seg[0]" IOSTANDARD = LVCMOS33;
+
+
+NET "seg[6]" LOC = L14;
+NET "seg[5]" LOC = H12;
+NET "seg[4]" LOC = N14;
+NET "seg[3]" LOC = N11;
+NET "seg[2]" LOC = P12;
+NET "seg[1]" LOC = L13;
+NET "seg[0]" LOC = M12;
+
+
+NET "btn0" IOSTANDARD = LVCMOS33;
+NET "clk_50mhz" IOSTANDARD = LVCMOS33;
+
+
+
+NET "btn0" LOC = A7;
+
+NET "clk_50mhz" LOC = B8;
+
+
+NET "key0[0]" LOC = F12;
+NET "key0[1]" LOC = J12;
+NET "key0[2]" LOC = M13;
+NET "key0[3]" LOC = K14;
+
+
+# PlanAhead Generated IO constraints 
+
+NET "key0[3]" IOSTANDARD = LVCMOS33;
+NET "key0[2]" IOSTANDARD = LVCMOS33;
+NET "key0[1]" IOSTANDARD = LVCMOS33;
+NET "key0[0]" IOSTANDARD = LVCMOS33;

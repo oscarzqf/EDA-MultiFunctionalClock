@@ -1,0 +1,28 @@
+Command line:
+   miaobiao_testbench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49949
+
+Sun Nov 27 21:35:14 2022
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5000.51 Meg
+
+ Total Signals          : 69
+ Total Nets             : 79
+ Total Signal Drivers   : 30
+ Total Blocks           : 14
+ Total Primitive Blocks : 12
+ Total Processes        : 52
+ Total Traceable Variables  : 56
+ Total Scalar Nets and Variables : 447
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 5000.51 Meg
+
+Sun Nov 27 21:35:20 2022
+

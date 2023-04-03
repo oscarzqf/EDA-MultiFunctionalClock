@@ -1,0 +1,38 @@
+
+
+NET "seg[6]" IOSTANDARD = LVCMOS33;
+NET "seg[5]" IOSTANDARD = LVCMOS33;
+NET "seg[4]" IOSTANDARD = LVCMOS33;
+NET "seg[3]" IOSTANDARD = LVCMOS33;
+NET "seg[2]" IOSTANDARD = LVCMOS33;
+NET "seg[1]" IOSTANDARD = LVCMOS33;
+NET "seg[0]" IOSTANDARD = LVCMOS33;
+NET "sel[1]" IOSTANDARD = LVCMOS33;
+NET "sel[0]" IOSTANDARD = LVCMOS33;
+NET "clk_50mhz" IOSTANDARD = LVCMOS33;
+NET "en" IOSTANDARD = LVCMOS33;
+NET "rst" IOSTANDARD = LVCMOS33;
+
+
+NET "seg[6]" LOC = L14;
+NET "seg[5]" LOC = H12;
+NET "seg[4]" LOC = N14;
+NET "seg[3]" LOC = N11;
+NET "seg[0]" LOC = M12;
+NET "seg[1]" LOC = L13;
+NET "seg[2]" LOC = P12;
+NET "sel[1]" LOC = K14;
+NET "sel[0]" LOC = M13;
+NET "clk_50mhz" LOC = B8;
+NET "en" LOC = P11;
+NET "rst" LOC = L3;
+
+# PlanAhead Generated physical constraints 
+
+NET "sel[2]" LOC = J12;
+NET "sel[3]" LOC = F12;
+
+# PlanAhead Generated IO constraints 
+
+NET "sel[3]" IOSTANDARD = LVCMOS33;
+NET "sel[2]" IOSTANDARD = LVCMOS33;

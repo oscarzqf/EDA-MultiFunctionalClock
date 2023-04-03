@@ -1,0 +1,35 @@
+xst -intstyle ise -ifn "C:/2020020910019/project_work3/top99.xst" -ofn "C:/2020020910019/project_work3/top99.syr" 
+xst -intstyle ise -ifn "C:/2020020910019/project_work3/top99.xst" -ofn "C:/2020020910019/project_work3/top99.syr" 
+xst -intstyle ise -ifn "C:/2020020910019/project_work3/top99.xst" -ofn "C:/2020020910019/project_work3/top99.syr" 
+xst -intstyle ise -ifn "C:/2020020910019/project_work3/top99.xst" -ofn "C:/2020020910019/project_work3/top99.syr" 
+xst -intstyle ise -ifn "C:/2020020910019/project_work3/top99.xst" -ofn "C:/2020020910019/project_work3/top99.syr" 
+xst -intstyle ise -ifn "C:/2020020910019/project_work3/top99.xst" -ofn "C:/2020020910019/project_work3/top99.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top99.ucf -p xc3s100e-cp132-5 top99.ngc top99.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o top99_map.ncd top99.ngd top99.pcf 
+par -w -intstyle ise -ol high -t 1 top99_map.ncd top99.ncd top99.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top99.twx top99.ncd -o top99.twr top99.pcf -ucf top99.ucf 
+bitgen -intstyle ise -f top99.ut top99.ncd 
+xst -intstyle ise -ifn "C:/2020020910019/project_work3/top99.xst" -ofn "C:/2020020910019/project_work3/top99.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top99.ucf -p xc3s100e-cp132-5 top99.ngc top99.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o top99_map.ncd top99.ngd top99.pcf 
+par -w -intstyle ise -ol high -t 1 top99_map.ncd top99.ncd top99.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top99.twx top99.ncd -o top99.twr top99.pcf -ucf top99.ucf 
+bitgen -intstyle ise -f top99.ut top99.ncd 
+xst -intstyle ise -ifn "C:/2020020910019/project_work3/top99.xst" -ofn "C:/2020020910019/project_work3/top99.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top99.ucf -p xc3s100e-cp132-5 top99.ngc top99.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o top99_map.ncd top99.ngd top99.pcf 
+par -w -intstyle ise -ol high -t 1 top99_map.ncd top99.ncd top99.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top99.twx top99.ncd -o top99.twr top99.pcf -ucf top99.ucf 
+bitgen -intstyle ise -f top99.ut top99.ncd 
+xst -intstyle ise -ifn "C:/2020020910019/project_work3/top99.xst" -ofn "C:/2020020910019/project_work3/top99.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top99.ucf -p xc3s100e-cp132-5 top99.ngc top99.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o top99_map.ncd top99.ngd top99.pcf 
+par -w -intstyle ise -ol high -t 1 top99_map.ncd top99.ncd top99.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top99.twx top99.ncd -o top99.twr top99.pcf -ucf top99.ucf 
+bitgen -intstyle ise -f top99.ut top99.ncd 
+xst -intstyle ise -ifn "C:/2020020910019/project_work3/top99.xst" -ofn "C:/2020020910019/project_work3/top99.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc top99.ucf -p xc3s100e-cp132-5 top99.ngc top99.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o top99_map.ncd top99.ngd top99.pcf 
+par -w -intstyle ise -ol high -t 1 top99_map.ncd top99.ncd top99.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml top99.twx top99.ncd -o top99.twr top99.pcf -ucf top99.ucf 
+bitgen -intstyle ise -f top99.ut top99.ncd 

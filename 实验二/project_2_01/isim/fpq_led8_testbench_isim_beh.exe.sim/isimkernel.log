@@ -1,0 +1,28 @@
+Command line:
+   fpq_led8_testbench_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55121
+
+Thu Feb 06 12:18:35 2003
+
+
+ Elaboration Time: 0.530404 sec
+
+ Current Memory Usage: 1174.34 Meg
+
+ Total Signals          : 17
+ Total Nets             : 24
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 14
+ Total Traceable Variables  : 23
+ Total Scalar Nets and Variables : 147
+
+ Total Simulation Time: 20.8729 sec
+
+ Current Memory Usage: 1174.34 Meg
+
+Thu Feb 06 12:19:04 2003
+

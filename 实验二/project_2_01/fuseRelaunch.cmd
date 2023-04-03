@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/2020020910019/project_2_01/fpq_led8_testbench_isim_beh.exe" -prj "C:/2020020910019/project_2_01/fpq_led8_testbench_beh.prj" "work.fpq_led8_testbench" "work.glbl" 

@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Feb 06 13:30:33 2003
+# Process ID: 4216
+# Log file: C:/2020020910019/project_2_01/planAhead_run_3/planAhead.log
+# Journal file: C:/2020020910019/project_2_01/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/2020020910019/project_2_01/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property package_pin "" [get_ports [list  {seg[6]}]]
+set_property package_pin "" [get_ports [list  {seg[4]}]]
+startgroup
+set_property package_pin L14 [get_ports {seg[6]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {seg[5]}]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports {seg[4]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {seg[3]}]
+endgroup
+startgroup
+set_property package_pin P12 [get_ports {seg[2]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {seg[1]}]
+endgroup
+startgroup
+set_property package_pin M12 [get_ports {seg[0]}]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list {seg[6]} {seg[5]} {seg[4]} {seg[3]} {seg[2]} {seg[1]} {seg[0]}]]
+startgroup
+set_property package_pin B8 [get_ports clk_50mhz]
+endgroup
+set_property package_pin "" [get_ports [list  key0]]
+startgroup
+set_property package_pin B8 [get_ports clk_50mhz]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports key0]
+endgroup
+set_property iostandard LVCMOS25 [get_ports [list key0]]
+startgroup
+set_property package_pin B8 [get_ports clk_50mhz]
+endgroup
+set_property iostandard LVCMOS33 [get_ports [list key0]]
+set_property iostandard LVCMOS33 [get_ports [list btn0]]
+set_property package_pin "" [get_ports [list  btn0]]
+startgroup
+set_property package_pin F12 [get_ports key0]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports btn0]
+endgroup
+save_constraints

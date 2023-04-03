@@ -1,0 +1,271 @@
+Release 14.7 par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+DESKTOP-T2199T1::  Sun Nov 27 16:20:10 2022
+
+par -w -intstyle ise -ol high -t 1 miaobiaotop_map.ncd miaobiaotop.ncd
+miaobiaotop.pcf 
+
+
+Constraints file: miaobiaotop.pcf.
+Loading device for application Rf_Device from file '3s100e.nph' in environment F:\xilinx\14.7\ISE_DS\ISE\.
+   "miaobiaotop" is an NCD, version 3.2, device xc3s100e, package cp132, speed -5
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.320 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "PRODUCTION 1.27 2013-10-13".
+
+
+Design Summary Report:
+
+ Number of External IOBs                           8 out of 83      9%
+
+   Number of External Input IOBs                  5
+
+      Number of External Input IBUFs              5
+        Number of LOCed External Input IBUFs      5 out of 5     100%
+
+
+   Number of External Output IOBs                 3
+
+      Number of External Output IOBs              3
+        Number of LOCed External Output IOBs      3 out of 3     100%
+
+
+   Number of External Bidir IOBs                  0
+
+
+   Number of BUFGMUXs                        3 out of 24     12%
+   Number of Slices                        179 out of 960    18%
+      Number of SLICEMs                      0 out of 480     0%
+
+
+
+Overall effort level (-ol):   High 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 1 secs 
+Finished initial Timing Analysis.  REAL time: 1 secs 
+
+
+Starting Placer
+Total REAL time at the beginning of Placer: 1 secs 
+Total CPU  time at the beginning of Placer: 1 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:11f6183d) REAL time: 1 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:11f6183d) REAL time: 1 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:11f6183d) REAL time: 1 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+
+Phase 4.2  Initial Clock and IO Placement (Checksum:1b68de8f) REAL time: 1 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:1b68de8f) REAL time: 1 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:1b68de8f) REAL time: 1 secs 
+
+Phase 7.8  Global Placement
+........................................
+................
+Phase 7.8  Global Placement (Checksum:60c43113) REAL time: 2 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:60c43113) REAL time: 2 secs 
+
+Phase 9.18  Placement Optimization
+Phase 9.18  Placement Optimization (Checksum:6c3e2017) REAL time: 2 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:6c3e2017) REAL time: 2 secs 
+
+Total REAL time to Placer completion: 2 secs 
+Total CPU  time to Placer completion: 2 secs 
+Writing design to file miaobiaotop.ncd
+
+
+
+Starting Router
+
+
+Phase  1  : 1134 unrouted;      REAL time: 3 secs 
+
+Phase  2  : 1000 unrouted;      REAL time: 3 secs 
+
+Phase  3  : 176 unrouted;      REAL time: 3 secs 
+
+Phase  4  : 270 unrouted; (Par is working to improve performance)     REAL time: 3 secs 
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+
+Updating file: miaobiaotop.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 4 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+
+Updating file: miaobiaotop.ncd with current fully routed design.
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+
+Phase 11  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+
+Phase 12  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+WARNING:Route:455 - CLK Net:u3/carry_out may have excessive skew because 
+      3 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:u4/carry_out may have excessive skew because 
+      3 CLK pins and 0 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:clk1/clk1mhz may have excessive skew because 
+      0 CLK pins and 2 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:clk2/clk1khz may have excessive skew because 
+      2 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:clk0/clk100hz may have excessive skew because 
+      0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+
+Total REAL time to Router completion: 6 secs 
+Total CPU time to Router completion: 6 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|     clk_50mhz_BUFGP | BUFGMUX_X2Y11| No   |   51 |  0.020     |  0.056      |
++---------------------+--------------+------+------+------------+-------------+
+|             d0/rclk |  BUFGMUX_X1Y0| No   |   24 |  0.030     |  0.063      |
++---------------------+--------------+------+------+------------+-------------+
+|              key_xd | BUFGMUX_X1Y10| No   |   36 |  0.028     |  0.063      |
++---------------------+--------------+------+------+------------+-------------+
+|        clk1/clk1mhz |         Local|      |    5 |  0.000     |  1.345      |
++---------------------+--------------+------+------+------------+-------------+
+|       clk0/clk100hz |         Local|      |    5 |  0.174     |  1.670      |
++---------------------+--------------+------+------+------------+-------------+
+|        u1/carry_out |         Local|      |    3 |  0.000     |  1.275      |
++---------------------+--------------+------+------+------------+-------------+
+|        u2/carry_out |         Local|      |    3 |  0.003     |  1.446      |
++---------------------+--------------+------+------+------------+-------------+
+|        u3/carry_out |         Local|      |    3 |  0.260     |  1.094      |
++---------------------+--------------+------+------+------------+-------------+
+|        u4/carry_out |         Local|      |    3 |  0.512     |  1.929      |
++---------------------+--------------+------+------+------------+-------------+
+|          key_xd_inv |         Local|      |    1 |  0.000     |  0.305      |
++---------------------+--------------+------+------+------------+-------------+
+|        u5/carry_out |         Local|      |    2 |  0.000     |  1.247      |
++---------------------+--------------+------+------+------------+-------------+
+|        clk2/clk1khz |         Local|      |    3 |  0.684     |  2.176      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 0 (Setup: 0, Hold: 0)
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     4.455ns|     N/A|           0
+  _50mhz_BUFGP                              | HOLD        |     0.892ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     3.635ns|     N/A|           0
+  1/clk1mhz                                 | HOLD        |     1.226ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net d0/ | SETUP       |         N/A|     2.077ns|     N/A|           0
+  rclk                                      | HOLD        |     1.360ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net key | SETUP       |         N/A|     1.978ns|     N/A|           0
+  _xd                                       | HOLD        |     0.844ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     1.987ns|     N/A|           0
+  0/clk100hz                                | HOLD        |     0.831ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net u1/ | SETUP       |         N/A|     2.006ns|     N/A|           0
+  carry_out                                 | HOLD        |     1.075ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net u2/ | SETUP       |         N/A|     1.976ns|     N/A|           0
+  carry_out                                 | HOLD        |     1.111ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net u3/ | SETUP       |         N/A|     2.299ns|     N/A|           0
+  carry_out                                 | HOLD        |     1.029ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net u4/ | SETUP       |         N/A|     2.553ns|     N/A|           0
+  carry_out                                 | HOLD        |     0.719ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net key | SETUP       |         N/A|     1.820ns|     N/A|           0
+  _xd_inv                                   | HOLD        |     1.261ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net u5/ | SETUP       |         N/A|     1.907ns|     N/A|           0
+  carry_out                                 | HOLD        |     1.069ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  Autotimespec constraint for clock net clk | SETUP       |         N/A|     4.245ns|     N/A|           0
+  2/clk1khz                                 | HOLD        |     0.905ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 7 secs 
+Total CPU time to PAR completion: 6 secs 
+
+Peak Memory Usage:  4433 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 5
+Number of info messages: 1
+
+Writing design to file miaobiaotop.ncd
+
+
+
+PAR done!

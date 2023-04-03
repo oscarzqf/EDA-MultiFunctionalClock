@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/2020020910019/project_2_01/fpq_led8.xst" -ofn "C:/2020020910019/project_2_01/fpq_led8.syr" 
+xst -intstyle ise -ifn "C:/2020020910019/project_2_01/fpq_led8.xst" -ofn "C:/2020020910019/project_2_01/fpq_led8.syr" 
+xst -intstyle ise -ifn "C:/2020020910019/project_2_01/fpq_led8.xst" -ofn "C:/2020020910019/project_2_01/fpq_led8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpq_led8.ucf -p xc3s100e-cp132-5 fpq_led8.ngc fpq_led8.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o fpq_led8_map.ncd fpq_led8.ngd fpq_led8.pcf 
+par -w -intstyle ise -ol high -t 1 fpq_led8_map.ncd fpq_led8.ncd fpq_led8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fpq_led8.twx fpq_led8.ncd -o fpq_led8.twr fpq_led8.pcf -ucf fpq_led8.ucf 
+bitgen -intstyle ise -f fpq_led8.ut fpq_led8.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc fpq_led8.ucf -p xc3s100e-cp132-5 fpq_led8.ngc fpq_led8.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o fpq_led8_map.ncd fpq_led8.ngd fpq_led8.pcf 
+par -w -intstyle ise -ol high -t 1 fpq_led8_map.ncd fpq_led8.ncd fpq_led8.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml fpq_led8.twx fpq_led8.ncd -o fpq_led8.twr fpq_led8.pcf -ucf fpq_led8.ucf 
+bitgen -intstyle ise -f fpq_led8.ut fpq_led8.ncd 

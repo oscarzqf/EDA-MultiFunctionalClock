@@ -1,0 +1,25 @@
+
+
+NET "clk_50mhz" IOSTANDARD = LVCMOS33;
+NET "dio" IOSTANDARD = LVCMOS33;
+NET "btn0" IOSTANDARD = LVCMOS33;
+NET "rclk" IOSTANDARD = LVCMOS33;
+NET "sclk" IOSTANDARD = LVCMOS33;
+
+
+NET "clk_50mhz" LOC = B8;
+NET "dio" LOC = C9;
+NET "btn0" LOC = A7;
+NET "rclk" LOC = A10;
+NET "sclk" LOC = B9;
+
+
+
+NET "switch0" IOSTANDARD = LVCMOS33;
+NET "switch1" IOSTANDARD = LVCMOS33;
+NET "switch2" IOSTANDARD = LVCMOS33;
+
+
+NET "switch0" LOC = N3;
+NET "switch1" LOC = E2;
+NET "switch2" LOC = F3;
